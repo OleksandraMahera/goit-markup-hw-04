@@ -558,10 +558,15 @@ button {
     background-color: #FFFFFF;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    color: #8E8F99;
 }
 
 .clients-link:hover,
 .clients-link:focus {
     border-color: var(--hover-focus-color);
+    color: var(--hover-focus-color);;
+}
+
+.clients-icon {
     fill: currentColor;
 }
