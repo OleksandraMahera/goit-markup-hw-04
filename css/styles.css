@@ -191,7 +191,7 @@ button {
     background-color: var(--overlays-shadows-headings);
 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office.jpg);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -542,21 +542,18 @@ button {
 }
 
 .card {
-    display: block;
     width: calc((100% - 48px) / 3);
-    border: 1px solid #E7E9FC;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-.card:hover,
-.card:focus {
-    border: 1px solid #F4F4FD;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
 
 .card-link {
+    display: block;
     color: var(--header-text);
+    border: 1px solid #E7E9FC;
+}
+
+.card-link:hover,
+.card-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card-content {
